@@ -1,0 +1,120 @@
+header {
+    background-color: #4575bd;
+    color:#fff;
+    padding: 1em;
+    text-align: center;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+
+
+  #home {
+    background-color: rgb(255, 246, 246);
+    color: #4575bd;
+    padding: 1em;
+    text-align: center;
+    margin: 0% auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  #about {
+    background-color: rgb(255, 246, 246);
+    color: #4575bd;
+    padding: 1em;
+    text-align: center;
+    margin: 0% auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  #services {
+    background-color: rgb(255, 246, 246);
+    color: #4575bd;
+    padding: 1em;
+    text-align: center;
+    margin: 0% auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  #contact {
+    background-color: rgb(255, 246, 246);
+    color: #4575bd;
+    padding: 1em;
+    text-align: center;
+    margin: 0% auto;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #about ul li {
+    display: block;
+    padding: 1em;
+  }
+
+  #services ul li {
+    display: inline;
+    padding: 1em;
+  }
+  table tr td {
+    padding: .5em;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+
+  }
+  footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 1em;
+    text-align: left;
+    margin: 0% auto;
+    font-family: sans-serif;
+  }
+  table tr th {
+    text-decoration: underline;
+  }
+footer p {
+    text-decoration: underline;
+}
+#age h2 {
+  background-color: rgb(255, 246, 246);
+  color: #4575bd;
+  padding: 1em;
+  text-align: center;
+  margin: 0% auto;
+  font-family: 'Roboto', sans-serif;
+}
+#age {
+  background-color: rgb(255, 246, 246);
+}
+#age p {
+  background-color: rgb(255, 246, 246);
+  color: #4575bd;
+  padding: 1em;
+  text-align: center;
+  margin: 10px 10px;
+  font-family: 'Roboto', sans-serif;
+}
+#age ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#age ul div {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#age ul div img {
+  width: 100%;
+  height: auto;
+}
+
+#age ul div div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+

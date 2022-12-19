@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel=" stylesheet" href=" udemy.css">
+	<link rel="stylesheet" href="vertical.css">
+	<link rel="stylesheet" href="button.css">	
+</head>
+<body>
+    <header>
+		<h1>Medical Desk</h1>
+		<nav class="active" id="nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<button class="icon" id="toggle">
+				<div class="line line1"></div>
+				<div class="line line2"></div>
+			  </button>
+		</nav>
+	</header>
+	<main>
+		<div id="home">
+			<h2>Home</h2>
+			<p>Welcome to my Healthcare Website</p>
+			<img src="https://www.urgentcaremds.com/wp-content/uploads/2022/05/Untitled-design-48.png">
+		</div>
+		<div id="about">
+			<h2>About</h2>
+			<p>Learn more about our business.</p>
+			<ul>
+				<li>Our business was founded on the idea of providing essential healthcare to those that need it most</li>
+				<li>Our medical practitioners have years of experience in there respective fields </li>
+				<li>The healthcare provided by our physicians are rated among the best in the nation </li>
+				<li>Our mission is to provide the best care to our patients in a quick and descrete way</li>
+			</ul>
+		</div>
+		<div id="age">
+			<h2>Clientele</h2>
+			<p>Here at Medical Desk, we provide a family atmosphere while catering to the local community with a wide array of 
+				mental health services. No matter your age, cultural, or religious background, 
+				you'll feel at home with us. We are here to help you with your mental health needs.</p>
+			<ul>
+				<div id="a10"> <div id="b1" >Children </div>
+				<li><img src= "https://newsroom.uhc.com/content/dam/newsroom/Benefits%20of%20Play_Newsroom.jpg"/></li></div>
+				<div id="a11"> <div id= "b2">Adults</div>
+				<li><img src= "https://image1.masterfile.com/getImage/NjExOC0wNzEyMjM2OWVuLjAwMDAwMDAw=AO07rc/6118-07122369en_Masterfile.jpg"/></li></div>	
+				<div id="a12"><div id="b3">Geriatric</div>
+				<li><img src= "https://live.staticflickr.com/909/27999711698_fcb1bbb74c_b.jpg"/></li>
+		</div>
+			</ul>
+			<div class="slider-container">
+				<div class="left-slide">
+				  <div style="background-color: #FD3555">
+					<h1>Psychology</h1>
+					<p>Our resident expert in Psychology</p>
+				  </div>
+				  <div style="background-color: #2A86BA">
+					<h1>Podiatry</h1>
+					<p>One of our expert podiatrists</p>
+				  </div>
+				  <div style="background-color: #252E33">
+					<h1>Dermatology</h1>
+					<p>Meet our newest Dermatologist</p>
+				  </div>
+				  <div style="background-color: #FFB866">
+					<h1>Physical Therapy</h1>
+					<p>Of the Leading experts in the state</p>
+				  </div>
+				</div>
+				<div class="right-slide">
+				  <div style="background-image: url('https://www.census.gov/newsroom/stories/doctors-day/_jcr_content/root/responsivegrid/imagecore.coreimg.jpeg/1647978611961/stories-doctors-1300x867.jpeg')"></div>
+				  <div style="background-image: url('https://media.istockphoto.com/id/1327024466/photo/portrait-of-male-doctor-in-white-coat-and-stethoscope-standing-in-clinic-hall.jpg?s=612x612&w=0&k=20&c=49wqOwwuonk9f8NACL7M_5RosqQPFwJ8-dpmeo9AvQw=')"></div>
+				  <div style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx4s6NgxUXQQ0K0koQhOuX75eBdVbHFhLhFg&usqp=CAU')"></div>
+				  <div style="background-image: url('https://media.istockphoto.com/id/1346124900/photo/confident-successful-mature-doctor-at-hospital.jpg?b=1&s=170667a&w=0&k=20&c=vUq0J-LgD4FPEV1Ua_0NeQBcJ2xb8EjGe5fdcR1K2x0=')"></div>
+				</div>
+				<div class="action-buttons">
+				  <button class="down-button">
+					<i class="fas fa-arrow-down"></i>
+				  </button>
+				  <button class="up-button">
+					<i class="fas fa-arrow-up"></i>
+				  </button>
+				</div>
+			  </div>
+
+			</div>
+		<div id="services">
+			<h2>Services</h2>
+			<p>We offer the following services:</p>
+			<ul>
+				<li>Psychology/Psychotherapy</li>
+				<li>Physical Therapy</li>
+				<li>Podiatry</li>
+				<li>Speech Pathology</li>
+				<li>Dermatology</li>
+			</ul>
+		</div>
+		<div id="contact">
+			<h2>Contact</h2>
+			<p>Get in touch with me.</p>
+			<form>
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email"><br>
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message"></textarea><br>
+				<input type="submit" value="Send">
+			</form>
+		</div>
+	</main>
+    <footer id= 'info'>
+		<table>
+			<tr>
+			  <th>Service</th>
+			  <th>Description</th>
+			</tr>
+			<tr>
+			  <td>Psychology/Psychotherapy</td>
+			  <td>Counseling and therapy services for mental health issues.</td>
+			</tr>
+			<tr>
+			  <td>Physical Therapy</td>
+			  <td>Services to help patients recover from injuries and improve their mobility.</td>
+			</tr>
+			<tr>
+			  <td>Podiatry</td>
+			  <td>Services for the diagnosis and treatment of foot and ankle conditions.</td>
+			</tr>
+			<tr>
+			  <td>Speech Pathology</td>
+			  <td>Services for the diagnosis and treatment of speech and language disorders.</td>
+			</tr>
+			<tr>
+			  <td>Dermatology</td>
+			  <td>Services for the diagnosis and treatment of skin conditions.</td>
+			</tr>
+		  </table>
+		  <div id="faq">
+		  <a href = faq.html>
+		  <button class="ripple">FAQ</button>
+		  </a>
+		  </div>
+		  
+        <p>© 2022 Aron Gersten William Feller Website 2</p>
+    </footer>
+	<script src="script.js"></script>
+	<script src="vertical-slider.js"></script>
+	<script src="button.js"></script>
+</body>
+</html>
